@@ -25,5 +25,6 @@ To build the examples locally, run:
 npm install
 npm start
 ```
+![alt text](https://user-images.githubusercontent.com/28309103/70201609-e4d22f80-16f5-11ea-96f6-a2e6cdac9e68.gif)
 
 Then open [`localhost:8000`](http://localhost:8000) in a browser.
