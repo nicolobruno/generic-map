@@ -6,7 +6,7 @@ import {
   Geography
 } from "react-simple-maps";
 import ReactTooltip from "react-tooltip";
-import PropTypes from "prop-types";
+import { object, string, number } from "prop-types";
 
 import ButtonContainer from "./components/ButtonContainer";
 import { STYLES_MAP, ZOOM } from "./constants";
@@ -86,7 +86,13 @@ Map.defaultProps = {
 };
 
 Map.propTypes = {
-  data: PropTypes.object
+  data: object.isRequired,
+  width: number,
+  height: number,
+  center: number,
+  scale: number,
+  zoom: number,
+  currency: string
 };
 
 export default Map;
