@@ -19,7 +19,7 @@ Example use Argentina map
 
 ## Demo & Examples
 
-Visit: generic-map.vercel.app/
+Visit: https://generic-map.vercel.app/
 
 To build the examples locally, run:
 
