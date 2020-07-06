@@ -19,6 +19,8 @@ Example use Argentina map
 
 ## Demo & Examples
 
+Visit: generic-map.vercel.app/
+
 To build the examples locally, run:
 
 ```bash
